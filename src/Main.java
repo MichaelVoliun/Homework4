@@ -4,10 +4,14 @@ public class Main {
         //Задание 1
         int i = 1;
         while (i <= 10){
-            System.out.println(i++ + " ");
-
+            System.out.print(i++ + " ");
         };
-        int i2 = 10;
-
+        System.out.println();
+        for (int p = 10; p >= 0; p = p-1){
+            System.out.print(p-- +" ");
         };
+        //Задание 2
+        int f = 5;
+
     }
+}

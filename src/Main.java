@@ -4,7 +4,7 @@ public class Main {
         //Задание 1
         int i = 1;
         while (i <= 10){
-            System.out.println(i++);
+            System.out.println(i++ + " ");
         };
         int i2 = 10;
 

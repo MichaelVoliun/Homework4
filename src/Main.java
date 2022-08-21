@@ -19,6 +19,19 @@ public class Main {
         for (int everyFriday = f; everyFriday <= 31; everyFriday +=7) {
             System.out.println("Сегодня пятница " + everyFriday + "-е число. Необходимо подготовить отчет");
         }
+        System.out.println();
+        //Задание 3
+        System.out.println("Задание 3");
+
+        int currentYear = 2022;
+        int start = currentYear - 200;
+        int end = currentYear + 100;
+
+        for (int j = start; j <= end; j++) {
+            if (j % 79 == 0) {
+                System.out.println(j);
+            }
+        }
 
     }
 }
